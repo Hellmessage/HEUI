@@ -36,9 +36,6 @@
     return View;
 }
 
-
-
-
 + (void) HESetImageViewRadius:(CGFloat)Radius View:(UIImageView *)View{
     View.layer.masksToBounds = YES;
     View.layer.cornerRadius = Radius;
@@ -50,6 +47,10 @@
     ViewLayer.frame = View.bounds;
     ViewLayer.path = ViewPath.CGPath;
     View.layer.mask = ViewLayer;
+}
+
++ (void) HESetImageViewClick:(bool)YesOrNo View:(UIImageView *)View{
+    View.userInteractionEnabled = YesOrNo;
 }
 
 

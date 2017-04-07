@@ -42,7 +42,7 @@
 		323027481E9729CF009973C7 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230272B1E9729CF009973C7 /* UIImageView+WebCache.m */; };
 		323027491E9729CF009973C7 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230272C1E9729CF009973C7 /* UIView+WebCacheOperation.h */; };
 		3230274A1E9729CF009973C7 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230272D1E9729CF009973C7 /* UIView+WebCacheOperation.m */; };
-		32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F121561E9763A800A6D4DA /* HEUI+UIImageView.h */; };
+		32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F121561E9763A800A6D4DA /* HEUI+UIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32F121591E9763A800A6D4DA /* HEUI+UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F121571E9763A800A6D4DA /* HEUI+UIImageView.m */; };
 		52014F831E968E45000ADCEA /* HEUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52014F791E968E45000ADCEA /* HEUI.framework */; };
 		52014F881E968E45000ADCEA /* HEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52014F871E968E45000ADCEA /* HEUITests.m */; };
@@ -268,8 +268,8 @@
 			files = (
 				3230273D1E9729CF009973C7 /* SDWebImagePrefetcher.h in Headers */,
 				323027471E9729CF009973C7 /* UIImageView+WebCache.h in Headers */,
-				32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */,
 				323027301E9729CF009973C7 /* SDImageCache.h in Headers */,
+				32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */,
 				321789BB1E975B84005ADAC5 /* HEUI+UILabel.h in Headers */,
 				323027451E9729CF009973C7 /* UIImageView+HighlightedWebCache.h in Headers */,
 				323027381E9729CF009973C7 /* SDWebImageDownloaderOperation.h in Headers */,

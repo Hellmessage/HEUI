@@ -23,4 +23,9 @@
 //设置圆角
 + (void) HESetImageViewRadius:(CGFloat)Radius View:(UIImageView *)View;
 + (void) HESetImageViewRadius:(UIRectCorner)RectCorner Size:(CGSize)Size View:(UIView *)View;
+
+
+
++ (void) HESetImageViewClick:(bool)YesOrNo View:(UIImageView *)View;
+
 @end
