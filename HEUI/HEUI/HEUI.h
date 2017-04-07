@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HEUI+Text.h"
 #import "HEUI+UIView.h"
-
+#import "HEUI+UIButton.h"
+#import "HEUI+UILabel.h"
 
 //常用宏
 
