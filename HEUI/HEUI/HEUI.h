@@ -11,6 +11,7 @@
 #import "HEUI+UIView.h"
 #import "HEUI+UIButton.h"
 #import "HEUI+UILabel.h"
+#import "HEUI+UIImageView.h"
 
 //常用宏
 

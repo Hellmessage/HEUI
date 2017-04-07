@@ -42,6 +42,8 @@
 		323027481E9729CF009973C7 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230272B1E9729CF009973C7 /* UIImageView+WebCache.m */; };
 		323027491E9729CF009973C7 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3230272C1E9729CF009973C7 /* UIView+WebCacheOperation.h */; };
 		3230274A1E9729CF009973C7 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3230272D1E9729CF009973C7 /* UIView+WebCacheOperation.m */; };
+		32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F121561E9763A800A6D4DA /* HEUI+UIImageView.h */; };
+		32F121591E9763A800A6D4DA /* HEUI+UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F121571E9763A800A6D4DA /* HEUI+UIImageView.m */; };
 		52014F831E968E45000ADCEA /* HEUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52014F791E968E45000ADCEA /* HEUI.framework */; };
 		52014F881E968E45000ADCEA /* HEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52014F871E968E45000ADCEA /* HEUITests.m */; };
 		52014F8A1E968E45000ADCEA /* HEUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 52014F7C1E968E45000ADCEA /* HEUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -95,6 +97,8 @@
 		3230272B1E9729CF009973C7 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		3230272C1E9729CF009973C7 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		3230272D1E9729CF009973C7 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		32F121561E9763A800A6D4DA /* HEUI+UIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "HEUI+UIImageView.h"; path = "HEUI+UIImageView/HEUI+UIImageView.h"; sourceTree = "<group>"; };
+		32F121571E9763A800A6D4DA /* HEUI+UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "HEUI+UIImageView.m"; path = "HEUI+UIImageView/HEUI+UIImageView.m"; sourceTree = "<group>"; };
 		52014F791E968E45000ADCEA /* HEUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HEUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52014F7C1E968E45000ADCEA /* HEUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HEUI.h; sourceTree = "<group>"; };
 		52014F7D1E968E45000ADCEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -195,6 +199,15 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		32F121551E97638300A6D4DA /* HEUI+UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				32F121561E9763A800A6D4DA /* HEUI+UIImageView.h */,
+				32F121571E9763A800A6D4DA /* HEUI+UIImageView.m */,
+			);
+			name = "HEUI+UIImageView";
+			sourceTree = "<group>";
+		};
 		52014F6F1E968E45000ADCEA = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +234,7 @@
 				321789B71E975B66005ADAC5 /* HEUI+UILabel */,
 				323027051E971EC3009973C7 /* HEUI+UIButton */,
 				52014F951E968F03000ADCEA /* HEUI+UIView */,
+				32F121551E97638300A6D4DA /* HEUI+UIImageView */,
 				52014F7C1E968E45000ADCEA /* HEUI.h */,
 				52014F7D1E968E45000ADCEA /* Info.plist */,
 			);
@@ -254,6 +268,7 @@
 			files = (
 				3230273D1E9729CF009973C7 /* SDWebImagePrefetcher.h in Headers */,
 				323027471E9729CF009973C7 /* UIImageView+WebCache.h in Headers */,
+				32F121581E9763A800A6D4DA /* HEUI+UIImageView.h in Headers */,
 				323027301E9729CF009973C7 /* SDImageCache.h in Headers */,
 				321789BB1E975B84005ADAC5 /* HEUI+UILabel.h in Headers */,
 				323027451E9729CF009973C7 /* UIImageView+HighlightedWebCache.h in Headers */,
@@ -378,6 +393,7 @@
 				3230274A1E9729CF009973C7 /* UIView+WebCacheOperation.m in Sources */,
 				321789BC1E975B84005ADAC5 /* HEUI+UILabel.m in Sources */,
 				323027421E9729CF009973C7 /* UIImage+GIF.m in Sources */,
+				32F121591E9763A800A6D4DA /* HEUI+UIImageView.m in Sources */,
 				323027371E9729CF009973C7 /* SDWebImageDownloader.m in Sources */,
 				323027401E9729CF009973C7 /* UIButton+WebCache.m in Sources */,
 				323027461E9729CF009973C7 /* UIImageView+HighlightedWebCache.m in Sources */,
