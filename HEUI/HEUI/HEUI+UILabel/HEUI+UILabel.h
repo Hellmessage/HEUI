@@ -19,6 +19,9 @@
 + (UILabel *) HENewLabel:(CGRect)CG Text:(NSString *)Text;
 + (UILabel *) HENewLabel:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font;
 + (UILabel *) HENewLabel:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor;
++ (UILabel *) HENewLabelHightAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor;
++ (UILabel *) HENewLabelWidthAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor;
++ (UILabel *) HENewLabelLeftAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor;
 
 + (UILabel *) HELabel:(CGRect)CG View:(UILabel *)View;
 + (UILabel *) HELabel:(CGRect)CG Text:(NSString *)Text View:(UILabel *)View;

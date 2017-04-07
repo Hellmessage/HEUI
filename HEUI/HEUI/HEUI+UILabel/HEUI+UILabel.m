@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Hellmessage. All rights reserved.
 //
 
-#import "HEUI+UILabel.h"
+#import "HEUI.h"
 
 @implementation HEUILabel
 
@@ -44,6 +44,44 @@
     View.textColor = TextColor;
     return View;
 }
+
++ (UILabel *) HENewLabelHightAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor{
+    UILabel *View = [HEUILabel HENewLabel];
+    View.frame = CG;
+    CGSize Size = [HEUIText GetSize:Text Font:Font Size:CS(MAXFLOAT, MAXFLOAT)];
+    int Y = (H(View) - Size.height) / 2;
+    View.frame = CG(X(View), Y, Size.width, Size.height);
+    View.text = Text;
+    View.font = Font;
+    View.textColor = TextColor;
+    return View;
+}
+
++ (UILabel *) HENewLabelWidthAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor{
+    UILabel *View = [HEUILabel HENewLabel];
+    View.frame = CG;
+    CGSize Size = [HEUIText GetSize:Text Font:Font Size:CS(MAXFLOAT, MAXFLOAT)];
+    int X = (W(View) - Size.width) / 2;
+    View.frame = CG(X, Y(View), Size.width, Size.height);
+    View.text = Text;
+    View.font = Font;
+    View.textColor = TextColor;
+    return View;
+}
+
++ (UILabel *) HENewLabelLeftAuto:(CGRect)CG Text:(NSString *)Text Font:(UIFont *)Font TextColor:(UIColor *)TextColor{
+    UILabel *View = [HEUILabel HENewLabel];
+    View.frame = CG;
+    CGSize Size = [HEUIText GetSize:Text Font:Font Size:CS(MAXFLOAT, MAXFLOAT)];
+    int X = (W(View) - Size.width) - X(View);
+    int Y = (H(View) - Size.height) / 2;
+    View.frame = CG(X, Y, Size.width, Size.height);
+    View.text = Text;
+    View.font = Font;
+    View.textColor = TextColor;
+    return View;
+}
+
 
 + (UILabel *) HELabel:(CGRect)CG View:(UILabel *)View{
     View.frame = CG;
